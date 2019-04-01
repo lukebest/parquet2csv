@@ -3,6 +3,14 @@ Parquet is a columnar format that is supported by many other data processing sys
 
 This is a simple python code for convert parquet files to pandas csv files.
 # Usage
+## environment
+```bash
+conda install pyarrow
+```
+or
+```bash
+pip install pyarrow
+```
 Move parquet files you want to convert into a folder, and modify the source code
 ```python
 path = 'JoinPredict-20190401055632-SLOT_0-29358'
