@@ -7,4 +7,5 @@ Move parquet files you want to convert into a folder, and modify the source code
 ```python
 path = 'JoinPredict-20190401055632-SLOT_0-29358'
 ```
+Then run it.
 It'll auto-convert all the parquet files to one csv file.
